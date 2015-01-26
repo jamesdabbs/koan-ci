@@ -1,6 +1,6 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require "minitest/autorun"
 
-class AboutArrays < Neo::Koan
+class TestArrays < Minitest::Test
   def test_creating_arrays
     empty_array = Array.new
     assert_equal __, empty_array.class
